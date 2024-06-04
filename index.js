@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 const deliveryPartnerRoutes = require("./routes/deliveryPartner.js");
 // app.use("/api/delivery-partner", deliveryPartnerRoutes);
 app.use("/", deliveryPartnerRoutes);
-const PORT = 3000;
+const PORT = 80;
 app.listen(PORT, () => {
-  console.log("Server is running on port 3000");
+  console.log("Server is running on port 80");
 });
